@@ -1,0 +1,78 @@
+body {
+    margin:0;
+  background-image: url('images/background.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -30%);
+}
+div#sidebar{
+    background-image: url('images/ide_bar.png');
+    background-size: 100%;
+    height:100vh ; width:20% ; float:left;
+}
+div#mainbar{
+  background-image: url('images/bar.png');
+  background-size: 100%;
+  height:300vh ; width:60% ; float:left ; bottom:1;
+}
+img#title{
+    padding-top: 40px ;
+    padding-bottom: 4vw ;
+    height: 200px ; width: 400px;
+}
+@font-face {
+    font-family: MINECRAFTSEVEN;
+    src: url(fonts/MINECRAFTSEVEN.TTF);
+}
+p1 {
+    font-family: MINECRAFTSEVEN;
+    color: lightgray;
+    font-size: 30px; 
+}
+div#text{
+    padding: 6vw ;
+}
+div#sidebar1{
+    height:100vh ; width:20% ; float:left;
+}
+@font-face {
+    font-family: MINECRAFTFIVE-BOLD;
+    src: url(fonts/MINECRAFTFIVE-BOLD.TTF);
+}
+p2 {
+    font-family: MINECRAFTFIVE-BOLD;
+    color: lightgray;
+    font-size: 50px; 
+}
+div#Titlebar{
+    background-image: url('images/top_bar.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    float: left ;
+    width: 80% ;
+    height: 8vw
+}
+div#titleside{
+    float: left ;
+    width: 10% ;
+    height: 8vw
+}
+.blog-container .blog {
+    background-repeat: no-repeat;
+    background-image: url('images/blog_back.png');
+    height:300vh ; width:60% ; bottom:1;
+    width: 640px;
+    height: 256px;
+}
+.center-image {
+      display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
