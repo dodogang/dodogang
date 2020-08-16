@@ -1,0 +1,6 @@
+title: Dodo Gang
+
+collections:
+  pages:
+    output: true
+    permalink: /:path/
