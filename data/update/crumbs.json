@@ -1,0 +1,7 @@
+{
+    "homepage": "https://curseforge.com/minecraft/mc-mods/crumbs",
+    "promos": {
+        "1.15.2-latest": "1.0.0+1.15.2-forge",
+        "1.15.2-recommended": "1.0.0+1.15.2-forge"
+    }
+}
