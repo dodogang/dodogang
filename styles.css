@@ -32,12 +32,27 @@ body {
 p1 {
     font-family: MINECRAFTSEVEN;
     color: lightgray;
-    font-size: 30px; 
-      text-shadow: 0px 3px #381218;
+    font-size: 2vw; 
+    text-shadow: 0px 3px #381218;
 }
-.text{
-    padding: 6vw ;
-    padding-top: 6vw;
+p2 {
+    font-family: MINECRAFTFIVE-BOLD;
+    color: lightgray;
+    font-size: 50px; 
+}
+p3
+{
+    font-family: MINECRAFTSEVEN;
+    color: lightgray;
+    font-size: 2vw; 
+    text-shadow: 0px 3px #381218; 
+}
+p4
+{
+    font-family: MINECRAFTSEVEN;
+    color: lightgray;
+    font-size: 1.2vw; 
+    text-shadow: 0px 3px #381218; 
 }
 .sidebar1{
     height:100vh ; width:20% ; float:left;
@@ -46,11 +61,7 @@ p1 {
     font-family: MINECRAFTFIVE-BOLD;
     src: url(fonts/MINECRAFTFIVE-BOLD.TTF);
 }
-p2 {
-    font-family: MINECRAFTFIVE-BOLD;
-    color: lightgray;
-    font-size: 50px; 
-}
+
 .Titlebar{
     background-size: 100%;
     background-repeat: no-repeat;
@@ -61,15 +72,6 @@ p2 {
     float: left ;
     width: 10% ;
     height: 10vw
-}
-.blog-container .blog {
-  background: #7f90ad;
-  border-top-left-radius: 8px;
-  border-top-right-radius: 8px;
-  width: 900px;
-  height: auto;
-  padding: 0;
-  margin: 10px;
 }
 .center-image {
       display: block;
@@ -106,10 +108,26 @@ a{
 }
 .blog-container{
   background-image:url('images/template/blog_back.png');
+  background-size: contain;
   float: left ;
-  width: 640px;
-  height: 257px;
+  width: 48vw ;
+  height: 25vw;
   background-repeat: no-repeat;
   position: relative;
-    
+
+}
+.blog
+{
+  padding: 6vw ;
+  padding-top: 5vw;
+}
+.home-image
+{
+    width: 100%;
+}
+.home{
+    width: 44%;
+    height: 15vw;
+    float: left;
+    padding: 3%
 }
