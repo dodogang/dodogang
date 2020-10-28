@@ -129,5 +129,6 @@ a{
     width: 44%;
     height: 15vw;
     float: left;
-    padding: 3%
+    padding: 3% ;
+    padding-right: 1% ;
 }
