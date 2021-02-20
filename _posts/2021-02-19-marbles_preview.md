@@ -87,3 +87,5 @@ These salt chunks are quite special. They suck up light levels near to them, all
 And that’s what we’ve come out with so far. This is a warning that we will come to your homes someday and force you to install Marbles, just like Crumbs. Anyways, hope you enjoyed a sneaky peak.
 
 Want to see this progress more often, or even get alpha builds as the code is written? Then why not come and [check out our amazing Discord server](https://discord.dodogang.net)!
+
+*Lots of love, Dodo Gang <3*
