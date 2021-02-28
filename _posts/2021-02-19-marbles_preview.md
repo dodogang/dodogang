@@ -6,7 +6,7 @@ tags: [ marbles, preview, showcase ]
 date: 2021-02-20 00:00:00 +0000
 ---
 
-![](/assets/img/projects/marbles/title.png)
+<img class="no-border" src="/assets/img/projects/marbles/title.png">
 
 The overworld is home to a variety of biomes, ranging from unique to astonishing places, such as the Badlands, Ice Spikes, and Coral Reefs, along with your classic destinations like Birch Forests, Taigas, and Jungles. Are you not satiated? Do you crave MORE?
 

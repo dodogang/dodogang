@@ -985,8 +985,9 @@ pre {
   margin-top: 0;
 }
 
-.blog-post img {
+.blog-post img:not(.no-border) {
   max-width: 100%;
+  border: 2px #112a3a solid;
 }
 
 .blog-post .caption {
