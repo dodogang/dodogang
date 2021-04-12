@@ -368,8 +368,8 @@ img {
 
 footer {
   padding: 1.875rem 0;
-  border-top: 1px #5f6469 solid;
-  border-bottom: 1px #34495E solid;
+  /* border-top: 1px #5f6469 solid;
+  border-bottom: 1px #34495E solid; */
   margin-top: 3.125rem;
   font-size: 0.875rem;
   background-color: {{ site.footer-col | default: "#254878" }};
