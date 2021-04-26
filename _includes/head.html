@@ -5,8 +5,8 @@
   {% capture title %}
     {%- if page.share-title -%}
       {{ page.share-title | strip_html | xml_escape }}
-    {%- elsif page.title -%}
-      {{ page.title | strip_html | xml_escape  }}
+    {%- elsif page.title and page.title != site.title -%}
+      {{ page.title | strip_html | xml_escape  }} | {{ site.title | strip_html | xml_escape  }}
     {%- else -%}
       {{ site.title | strip_html | xml_escape }}
     {%- endif -%}
@@ -68,7 +68,7 @@
       {% include ext-css.html css=css %}
     {% endfor %}
   {% endif %}
-  
+
   {% if page.css %}
     {% for css in page.css %}
       <link rel="stylesheet" href="{{ css | relative_url }}">
