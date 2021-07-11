@@ -63,7 +63,7 @@ a {
 a:hover,
 a:focus {
   color: #ABDAFF;
-  text-decoration: underline;
+  text-decoration: none;
   transition: all 0.2s ease;
 }
 blockquote {
@@ -136,7 +136,7 @@ img {
 
 .navbar-custom {
   background-color: {{ site.navbar-col | default: "#EAEAEA" }};
-  border-bottom: 1px solid {{ site.navbar-border-col | default: "#DDDDDD" }};
+  border-bottom: 3px solid {{ site.navbar-border-col | default: "#DDDDDD" }};
   font-family: 'Ubuntu', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   {% if site.navbar-img %}
     background-image: url({{ site.navbar-img | relative_url }});
@@ -224,8 +224,8 @@ img {
 
 @media (min-width: 1200px) {
   .navbar-custom {
-    padding-top: 1.25rem;
-    padding-bottom: 1.25rem;
+    padding-top: 0.4rem;
+    padding-bottom: 0.4rem;
   }
 
   .navbar-custom .navbar-brand-logo {
@@ -299,7 +299,7 @@ img {
   }
 
   .navbar-custom .navbar-nav .nav-link {
-    padding: 0.675rem 0 0.675rem 1rem;
+    padding: 0.4rem 0 0.4rem 1rem;
   }
 
   .navbar-custom .nav-item.dropdown.show {
@@ -985,7 +985,7 @@ pre {
   margin-top: 0;
 }
 
-.blog-post img:not(.no-border) {
+.blog-post img:not(.no-border), .page img:not(.no-border) {
   max-width: 100%;
   border: 2px #112a3a solid;
 }
@@ -1034,4 +1034,41 @@ hr {
 .center {
   display: block;
   margin: 0 auto;
+}
+
+button {
+    border: none;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+    display: table-cell;
+    text-align: center;
+    vertical-align: center;
+    line-height: 0px;
+}
+button:focus {
+    outline: 0 !important;
+}
+button.large, button.download-coll {
+    padding: 12px 30px;
+    transition: all 0.2s ease;
+}
+
+button.wiki {
+  color: black;
+  background-color: #3fbbf4;
+}
+button.wiki:hover {
+  color: black;
+  background-color: #7ab7f1;
+}
+
+button.releases {
+  color: black;
+  background-color: #F4D03F;
+}
+button.releases:hover {
+  color: black;
+  background-color: #f1da7a;
 }
